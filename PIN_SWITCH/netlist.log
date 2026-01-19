@@ -25,30 +25,32 @@ TLIN:TL1  N__1 N__0 Z=50.0 Ohm E=23.8 F=2.4 GHz
 TLIN:TL2  N__3 N__11 Z=50.0 Ohm E=degL F=2.4 GHz 
 TLIN:TL3  N__11 N__5 Z=50.0 Ohm E=degR F=2.4 GHz 
 TLIN:TL4  N__6 N__7 Z=50.0 Ohm E=23.8 F=2.4 GHz 
-TLIN:TL5  N__3 N__12 Z=52.37 Ohm E=79.84 F=2.4 GHz 
-C:C1  N__0 N__3 C=8.2 pF 
-C:C2  N__5 N__6 C=8.2 pF 
+TLIN:TL5  N__3 N__12 Z=paraZ Ohm E=paraDeg F=2.4 GHz 
+C:C1  N__0 N__3 C=6.8 pF 
+C:C2  N__5 N__6 C=6.8 pF 
 DiodeOff:X1  N__12 0 
+DiodeOn:X2  N__13 0 
 Port:TermG1  N__1 0 Num=1 Z=50 Ohm Noise=yes 
 Port:TermG2  N__7 0 Num=2 Z=50 Ohm Noise=yes 
-Port:TermG3  N__2 0 Num=3 Z=50 Ohm Noise=yes 
 TLIN:TL6  N__2 N__11 Z=75.0 Ohm E=90 F=2.4 GHz 
 TLIN:TL7  N__8 N__2 Z=25 Ohm E=90 F=2.4 GHz 
+Port:TermG3  N__2 0 Num=3 Z=50 Ohm Noise=yes 
 TLIN:TL8  N__22 N__10 Z=25 Ohm E=90 F=2.4 GHz 
 TLIN:TL9  N__10 N__21 Z=75.0 Ohm E=90 F=2.4 GHz 
 TLIN:TL11  N__16 N__19 Z=50.0 Ohm E=23.8 F=2.4 GHz 
 TLIN:TL12  N__21 N__20 Z=50.0 Ohm E=degR F=2.4 GHz 
 TLIN:TL13  N__18 N__21 Z=50.0 Ohm E=degL F=2.4 GHz 
 TLIN:TL14  N__17 N__9 Z=50.0 Ohm E=23.8 F=2.4 GHz 
-C:C3  N__20 N__16 C=8.2 pF 
-C:C4  N__9 N__18 C=8.2 pF 
+C:C3  N__20 N__16 C=6.8 pF 
+C:C4  N__9 N__18 C=6.8 pF 
+
+degR=69 tune{ 0 to 180 by 0.5 }
+paraDeg=79.84 tune{ 0 to 180 by 0.5 }
+paraZ=52.37 tune{ 0 to 180 by 0.5 }
+degL=45 tune{ 0 to 180 by 0.5 }
 Port:TermG4  N__17 0 Num=4 Z=50 Ohm Noise=yes 
 Port:TermG5  N__19 0 Num=5 Z=50 Ohm Noise=yes 
 Port:TermG6  N__10 0 Num=6 Z=50 Ohm Noise=yes 
-DiodeOn:X2  N__13 0 
-
-degR=57.6 tune{ 0 to 180 by 0.5 }
-degL=73.8 tune{ 0 to 180 by 0.5 }
 S_Param:SP1 CalcS=yes CalcY=no CalcZ=no GroupDelayAperture=1e-4 FreqConversion=no FreqConversionPort=1 StatusLevel=2 CalcNoise=no SortNoise=0 BandwidthForNoise=1.0 Hz DevOpPtLevel=0 SPSS_WSP=yes \
 SweepVar="freq" SweepPlan="SP1_stim" OutputPlan="SP1_Output" 
 
@@ -63,4 +65,4 @@ OutputPlan:SP1_Output \
 
 #load "python","LinearCollapse"
 Component Module="LinearCollapse" Type="ModelExtractor" NetworkRepresentation=2
-TLIN:TL15  N__18 N__13 Z=52.37 Ohm E=79.84 F=2.4 GHz 
+TLIN:TL16  N__18 N__13 Z=paraZ Ohm E=paraDeg F=2.4 GHz 
