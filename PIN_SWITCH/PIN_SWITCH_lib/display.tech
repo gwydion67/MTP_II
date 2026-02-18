@@ -2,6 +2,9 @@
 <Display>
     <Current_Lpp name="cond:drawing"/>
     <Lpp_Display_Order order="0">
+        <LPP name="layer_41:drawing"/>
+        <LPP name="layer_40:drawing"/>
+        <LPP name="gnd:drawing"/>
         <LPP name="default:drawing"/>
         <LPP name="cond:drawing"/>
         <LPP name="cond2:drawing"/>

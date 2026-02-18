@@ -1,0 +1,19 @@
+
+hpeesofsim (*) 630.shp Jul  1 2025, MINT version 5
+    (64-bit windows built: Tue Jul 01, 2025 18:06:08 -0700)
+
+***** Simulation started at Sat Feb 14 19:48:10 2026
+      Running on host: "GCFWS1"
+      In Directory: "D:\DBTech\21EC33002\ADS\MTP_II\PIN_SWITCH\data"
+      Process ID: 119056
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with only one device attached (topology corrected): 3
+
+
+SP SP1[1] <PIN_SWITCH_lib:testing:schematic>   freq=(400 MHz->4.4 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     3.22 seconds.
+

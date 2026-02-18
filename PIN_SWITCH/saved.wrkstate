@@ -1,5 +1,7 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
-    <Windows/>
+    <Windows>
+        <Layout cell="DiodeOff" geom="1,0,3,935,31,932,906,1868,978" height="915" lib="PIN_SWITCH_lib" view="layout" width="1868" x1="0" y1="-8"/>
+    </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>

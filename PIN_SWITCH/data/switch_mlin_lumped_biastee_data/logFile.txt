@@ -1,0 +1,16 @@
+
+hpeesofsim (*) 630.shp Jul  1 2025, MINT version 5
+    (64-bit windows built: Tue Jul 01, 2025 18:06:08 -0700)
+
+***** Simulation started at Thu Feb 12 17:29:15 2026
+      Running on host: "GCFWS1"
+      In Directory: "D:\DBTech\21EC33002\ADS\MTP_II\PIN_SWITCH\data"
+      Process ID: 117012
+
+
+SP SP1[1] <PIN_SWITCH_lib:switch_mlin_lumped_biastee:schematic>   freq=(400 MHz->4.4 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     0.88 seconds.
+

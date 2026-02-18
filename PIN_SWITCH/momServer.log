@@ -1,0 +1,19 @@
+Momentum Server logfile: momServer.log
+
+EM Model generation from "PIN_SWITCH_lib:switch_layout_lumped_emCosim:emModel"
+  parameterNames = list("Substrate","MeshDensity")
+  parameterValues = list("definedInState","20")
+  topLevel design name = "PIN_SWITCH_lib:cell_1:schematic"
+  instance name = "X1.__emcosimModel.em_data"
+  processID = "53827@127.0.0.1:hpeesofsim:_unique51941_13"
+  visible = TRUE
+Connected to external process by processID
+..handle = 18
+..pid = 53827@127.0.0.1:hpeesofsim:_unique51941_13
+..name = hpeesofsim
+..disable simulation log popup
+..simulation M260214200639 started
+..simulation M260214200639 ended
+EM simulation finished successfully
+..adding new data to EM model view: Success Added simulation data.
+..sending DONE to parent

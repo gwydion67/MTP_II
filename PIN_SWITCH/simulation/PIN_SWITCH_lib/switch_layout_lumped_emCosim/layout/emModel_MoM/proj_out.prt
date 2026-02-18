@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<port_setup version="1.1">
+  <port_list>
+    <port id="1">
+      <name>P1</name>
+      <plus_pin>P1</plus_pin>
+      <impedance>
+        <real>50</real>
+        <imag>0</imag>
+      </impedance>
+    </port>
+    <port id="2">
+      <name>P2</name>
+      <plus_pin>P2</plus_pin>
+      <impedance>
+        <real>50</real>
+        <imag>0</imag>
+      </impedance>
+    </port>
+    <port id="3">
+      <name>P3</name>
+      <plus_pin>P3</plus_pin>
+      <impedance>
+        <real>50</real>
+        <imag>0</imag>
+      </impedance>
+    </port>
+    <port id="4">
+      <name>P4</name>
+      <plus_pin>P4</plus_pin>
+      <impedance>
+        <real>50</real>
+        <imag>0</imag>
+      </impedance>
+    </port>
+    <port id="5">
+      <name>P14</name>
+      <plus_pin>P14</plus_pin>
+      <impedance>
+        <real>50</real>
+        <imag>0</imag>
+      </impedance>
+    </port>
+    <port id="6">
+      <name>P15</name>
+      <plus_pin>P15</plus_pin>
+      <impedance>
+        <real>50</real>
+        <imag>0</imag>
+      </impedance>
+    </port>
+    <port id="7">
+      <name>P16</name>
+      <plus_pin>P16</plus_pin>
+      <impedance>
+        <real>50</real>
+        <imag>0</imag>
+      </impedance>
+    </port>
+    <port id="8">
+      <name>P17</name>
+      <plus_pin>P17</plus_pin>
+      <impedance>
+        <real>50</real>
+        <imag>0</imag>
+      </impedance>
+    </port>
+    <port id="9">
+      <name>P22</name>
+      <plus_pin>P22</plus_pin>
+      <impedance>
+        <real>50</real>
+        <imag>0</imag>
+      </impedance>
+    </port>
+  </port_list>
+</port_setup>

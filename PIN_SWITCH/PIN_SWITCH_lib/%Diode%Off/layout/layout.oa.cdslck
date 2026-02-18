@@ -1,0 +1,16 @@
+#
+# Edit Lock-Stake file. CAUTION: Please do not change.
+#
+# Information about current Edit Lock Owner.
+#
+LockStakeVersion               1.1
+LoginName                      21EC33002
+HostName                       GCFWS1.gcf.local
+ProcessIdentifier              27488
+ProcessCreationTime_UTC        1771263688
+ProcessCreationTime_Readable   Mon Feb 16 23:11:28 2026 India Standard Time
+AppIdentifier                  OA File System Design Manager
+OSType                         win32
+ReasonForPlacingEditLock       OpenAccess edit lock
+FilePathUsedToEditLock         D:\DBTech\21EC33002\ADS\MTP_II\PIN_SWITCH\PIN_SWITCH_lib\%Diode%Off\layout\layout.oa.cdslck
+TimeEditLocked                 Mon Feb 16 23:11:51 2026 India Standard Time

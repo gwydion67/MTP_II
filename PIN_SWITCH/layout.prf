@@ -26,7 +26,7 @@ scaleX 1.000000
 scaleY 1.000000
 toArcRadius 3.000000
 miterVertexLength 0.250000
-portOrientation 0.000000
+portOrientation 10000.000000
 plottingDepth 10
 bboxColor 3
 selectColor 99
@@ -56,7 +56,7 @@ majorGridDisplayY 5
 majorGridDisplayOn 1
 gridDisplayMode 0
 gridSnapOn 1
-gridSnapMode 119
+gridSnapMode 127
 gridColor 104
 windowLLX -5.000000
 windowLLY -5.000000

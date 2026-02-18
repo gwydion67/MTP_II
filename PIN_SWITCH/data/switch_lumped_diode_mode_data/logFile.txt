@@ -1,0 +1,45 @@
+
+hpeesofsim (*) 630.shp Jul  1 2025, MINT version 5
+    (64-bit windows built: Tue Jul 01, 2025 18:06:08 -0700)
+
+***** Simulation started at Mon Feb 16 23:44:06 2026
+      Running on host: "GCFWS1"
+      In Directory: "D:\DBTech\21EC33002\ADS\MTP_II\PIN_SWITCH\data"
+      Process ID: 114040
+
+Warning detected by hpeesofsim during circuit set up.
+    In instance `D6.DIODE1', the value of 'Rs' was limited to 1.0000e-04
+
+Warning detected by hpeesofsim during circuit set up.
+    In instance `D5.DIODE1', the value of 'Rs' was limited to 1.0000e-04
+
+Warning detected by hpeesofsim during circuit set up.
+    In instance `D2.DIODE1', the value of 'Rs' was limited to 1.0000e-04
+
+Warning detected by hpeesofsim during circuit set up.
+    In instance `D1.DIODE1', the value of 'Rs' was limited to 1.0000e-04
+
+Pt DC convergence is used.
+Warning detected by hpeesofsim during DC analysis `SP1'.
+    A virtual resistance of 1 TOhms 
+    was added between `N__24' and ground.
+
+Warning detected by hpeesofsim during DC analysis `SP1'.
+    A virtual resistance of 1 TOhms 
+    was added between `N__25' and ground.
+
+Warning detected by hpeesofsim during DC analysis `SP1'.
+    A virtual resistance of 1 TOhms 
+    was added between `N__6' and ground.
+
+Warning detected by hpeesofsim during DC analysis `SP1'.
+    A virtual resistance of 1 TOhms 
+    was added between `N__36' and ground.
+
+
+SP SP1[1] <PIN_SWITCH_lib:switch_lumped_diode_mode:schematic>   freq=(400 MHz->4.4 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     1.00 seconds.
+

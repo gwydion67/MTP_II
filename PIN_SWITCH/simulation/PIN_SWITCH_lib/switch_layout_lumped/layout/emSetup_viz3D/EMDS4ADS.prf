@@ -1,0 +1,52 @@
+Begin_Block  Header 
+  
+  Mode  ASCII 
+  File_Name  D:/DBTech/21EC33002/ADS/MTP_II/PIN_SWITCH/simulation/PIN_SWITCH_lib/switch_layout_lumped/layout/emSetup_viz3D/EMDS4ADS.prf 
+  Version  3.00 
+  
+End_Block  Header 
+
+Begin_Block  Data 
+  
+  Begin_Preferences 
+  
+  Begin_Material_Block 
+  Material cond     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Material __SubstrateLayer1     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  End_Material_Block 
+  
+  Begin_Color_Block 
+  Object __SubstrateLayer1_1     1.0000000000000000e+00      0.0000000000000000e+00      1.0000000000000000e+00  
+  Object cond_2     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_3     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  Object cond_4     9.3333333333333335e-01      4.1568627450980394e-01      3.1372549019607843e-01  
+  End_Color_Block 
+  
+  Begin_Visible_Block 
+  Object __SubstrateLayer1_1 1  0  80  
+  Object cond_2 1  1  50  
+  Object cond_3 1  1  50  
+  Object cond_4 1  1  50  
+  End_Visible_Block 
+  
+  Begin_Plane_Block 
+  Planes 0  
+  End_Plane_Block 
+  
+  Begin_Camera_Block 
+  Position     5.5814708709716797e+01     -4.3089706420898438e+01      4.3591209411621094e+01  
+  Target     1.2324999809265137e+01      4.0000009536743164e-01      1.0149999707937241e-01  
+  Up    -4.0824830532073975e-01      4.0824830532073975e-01      8.1649661064147949e-01  
+      3.0130556106567383e+01      3.0130556106567383e+01  
+  End_Camera_Block 
+  
+  Begin_Background_Block 
+  Top_Color     0.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Bottom_Color     0.0000000000000000e+00      0.0000000000000000e+00      0.0000000000000000e+00  
+  Shadow 0  
+  End_Background_Block 
+  
+  End_Preferences 
+  
+End_Block  Data 
+

@@ -10,8 +10,11 @@
     <LPP alpha="255" fill="0" layer="default" line="0" mode="0" protect="0" purpose="drawing" rgb="13296127" visible="1"/>
     <LPP alpha="255" fill="1" layer="diel2" line="0" mode="1" protect="0" purpose="drawing" rgb="7794374" visible="1"/>
     <LPP alpha="255" fill="4" layer="diel" line="0" mode="1" protect="0" purpose="drawing" rgb="65535" visible="1"/>
+    <LPP alpha="255" fill="18" layer="gnd" line="0" mode="2" protect="0" purpose="drawing" rgb="139" visible="1"/>
     <LPP alpha="255" fill="5" layer="hole" line="0" mode="1" protect="0" purpose="drawing" rgb="49151" visible="1"/>
     <LPP alpha="255" fill="0" layer="hpeesof_region" line="0" mode="2" protect="1" purpose="drawing" rgb="16776960" visible="1"/>
+    <LPP alpha="255" fill="18" layer="layer_40" line="0" mode="2" protect="0" purpose="drawing" rgb="16711680" visible="1"/>
+    <LPP alpha="255" fill="18" layer="layer_41" line="0" mode="2" protect="0" purpose="drawing" rgb="16776960" visible="1"/>
     <LPP alpha="255" fill="8" layer="leads" line="0" mode="1" protect="0" purpose="drawing" rgb="16769535" visible="1"/>
     <LPP alpha="255" fill="0" layer="momentum_box" line="3" mode="0" protect="1" purpose="drawing" rgb="16776960" visible="1"/>
     <LPP alpha="255" fill="0" layer="momentum_err" line="0" mode="2" protect="0" purpose="drawing" rgb="16776960" visible="1"/>
