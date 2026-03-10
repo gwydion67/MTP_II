@@ -1,0 +1,18 @@
+; Translated with ADS Netlist Translator (*) 630.shp Jul  1 2025
+;
+;Mapping SPICE functions file to the Netlist
+#ifndef SPCFUNCTIONS_FILE
+#define SPCFUNCTIONS_FILE
+#include "$HPEESOF_DIR/links/spice/spicefunctions.net"
+#endif
+;
+;****************************************************************
+; INFINEON TECHNOLOGIES AG *
+; SMS TI DS 21 *
+; SPICE DIODE MODEL (DIODE CHIP ONLY) *
+; *
+; Version: 1.1 *
+; Date: November 2002 A. Boehme *
+;****************************************************************
+model d383 Diode Is=417e-12 N=1.923 Rs=.42 Cjo=274e-15 M=.241 Vj=.987 Bv=50 Ibv=1e-6 Tt=1.1e-6 \
+      Nbv=1.923 Tnom=27 IkModel=1 Imax=1000 Trs1=0 Trs2=0

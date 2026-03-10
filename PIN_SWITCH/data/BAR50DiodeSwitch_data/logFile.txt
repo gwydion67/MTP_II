@@ -1,0 +1,28 @@
+
+hpeesofsim (*) 630.shp Jul  1 2025, MINT version 5
+    (64-bit windows built: Tue Jul 01, 2025 18:06:08 -0700)
+
+***** Simulation started at Tue Mar 10 14:39:59 2026
+      Running on host: "GCFWS1"
+      In Directory: "D:\DBTech\21EC33002\ADS\MTP_II\PIN_SWITCH\data"
+      Process ID: 362040
+
+Warning detected by hpeesofsim in topology check during circuit set up.
+    Number of nodes with no DC path to ground (topology corrected): 7
+
+Pt DC convergence is used.
+Warning detected by hpeesofsim during DC analysis `SP1'.
+    A virtual resistance of 1 TOhms 
+    was added between `N__25' and ground.
+
+Warning detected by hpeesofsim during DC analysis `SP1'.
+    A virtual resistance of 1 TOhms 
+    was added between `N__48' and ground.
+
+
+SP SP1[1] <PIN_SWITCH_lib:BAR50DiodeSwitch:schematic>   freq=(400 MHz->4.4 GHz)
+
+
+Resource usage:
+  Total stopwatch time     =     1.06 seconds.
+

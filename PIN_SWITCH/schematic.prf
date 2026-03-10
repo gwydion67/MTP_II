@@ -3,8 +3,8 @@ pathMiterPercent 0.000000
 pathEndCap 2
 pathLayerName default
 textFontName Roboto
-textPoint 12
-textJustification 9
+textPoint 5
+textJustification 10
 textAngle 0.000000
 textAbsolute 0
 instNameLayer 6
@@ -49,7 +49,7 @@ entryMode 0
 rotationIncrement 90.000000
 gridDisplayX 2
 gridDisplayY 2
-gridDisplayOn 1
+gridDisplayOn 0
 gridDisplaySameXY 1
 majorGridDisplayX 5
 majorGridDisplayY 5

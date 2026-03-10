@@ -10,7 +10,7 @@ MLIN2:TL3  N__7 N__9 Subst="MSub1" W=W50 mm L=LenR mm Wall1=2.5000000000000002e+
 MLIN2:TL4  N__17 N__5 Subst="MSub1" W=W50 mm L=1 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 MLIN2:TL5  N__8 N__21 Subst="MSub1" W=paraW mm L=paraLen mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 #uselib "nxp_rf_smallSignal" , "rfss_v2_4_lib_bap64_02_spice_schematic"
-"rfss_v2_4_lib_bap64_02_spice_schematic":D1  0 N__21 
+"rfss_v2_4_lib_bap64_02_spice_schematic":D11  0 N__3 
 #uselib "ckt" , "S2P"
 S2P:SNP7  0 N__20 0 File="D:\DBTech\21EC33002\capacitors\0603\CAP_VIS_0603_001_20milRogers4003C_6p8pF_model.s2p" Type="touchstone" Block="cap_150pF" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
 R:R2  N__15 N__20 R=500 Ohm Noise=yes 
@@ -34,7 +34,7 @@ S2P:SNP1  0 N__10 0 File="D:\DBTech\21EC33002\capacitors\0603\CAP_VIS_0603_001_2
 #uselib "ckt" , "S2P"
 S2P:SNP2  N__10 N__7 0 File="D:\DBTech\21EC33002\inductors\LQG15HS22NH02_series_22nH.s2p" Type="touchstone" Block="ind_270nH" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
 #uselib "nxp_rf_smallSignal" , "rfss_v2_4_lib_bap64_02_spice_schematic"
-"rfss_v2_4_lib_bap64_02_spice_schematic":D2  0 N__3 
+"rfss_v2_4_lib_bap64_02_spice_schematic":D10  0 N__21 
 MLIN2:TL10  N__12 N__3 Subst="MSub1" W=paraW mm L=paraLen mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 MLIN2:TL9  N__11 N__19 Subst="MSub1" W=W50 mm L=LenR mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
 #uselib "ckt" , "S2P"
@@ -49,11 +49,11 @@ Port:TermG1  N__1 0 Num=1 Z=50 Ohm Noise=yes
 Port:TermG2  N__5 0 Num=2 Z=50 Ohm Noise=yes 
 R:R1  N__18 N__10 R=500 Ohm Noise=yes 
 
-LenR=12.3 tune{ 0 to 180 by 0.1 }
+LenR=12.7 tune{ 0 to 180 by 0.1 }
 W50=0.45 tune{ 0.2 to 180 by 0.05 }
 paraLen=17.3 tune{ 0 to 180 by 0.1 }
 paraW=0.25 tune{ 0.2 to 180 by 0.05 }
-LenL=7.75 tune{ 0 to 180 by 0.1 }
+LenL=7.35 tune{ 0 to 180 by 0.1 }
 V_Source:SRC1  N__18 0 Type="V_DC" Vdc=4.6 V SaveCurrent=1 
 #uselib "ckt" , "S2P"
 S2P:SNP9  N__2 N__12 0 File="D:\DBTech\21EC33002\capacitors\0603\CAP_VIS_0603_001_20milRogers4003C_6p8pF_model.s2p" Type="touchstone" Block="cap_6.8pF" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
@@ -67,29 +67,81 @@ R:R3  N__22 N__31 R=500 Ohm Noise=yes
 S2P:SNP11  N__31 N__34 0 File="D:\DBTech\21EC33002\inductors\LQG15HS18NJ02_series_18nH.s2p" Type="touchstone" Block="18nH" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
 #uselib "ckt" , "S2P"
 S2P:SNP12  0 N__31 0 File="D:\DBTech\21EC33002\capacitors\0603\CAP_VIS_0603_001_20milRogers4003C_4p3pF_model.s2p" Type="touchstone" Block="4.3 pF" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
-Port:TermG5  N__23 0 Num=5 Z=50 Ohm Noise=yes 
-Port:TermG6  N__32 0 Num=6 Z=50 Ohm Noise=yes 
-#uselib "ckt" , "S2P"
-S2P:SNP15  N__23 N__34 0 File="D:\DBTech\21EC33002\capacitors\0603\CAP_VIS_0603_001_20milRogers4003C_6p8pF_model.s2p" Type="touchstone" Block="cap_6.8pF" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
 #uselib "nxp_rf_smallSignal" , "rfss_v2_4_lib_bap64_02_spice_schematic"
 "rfss_v2_4_lib_bap64_02_spice_schematic":D5  N__32 N__34 
-#uselib "ckt" , "S2P"
-S2P:SNP28  N__24 N__32 0 File="D:\DBTech\21EC33002\capacitors\0603\CAP_VIS_0603_001_20milRogers4003C_6p8pF_model.s2p" Type="touchstone" Block="cap_6.8pF" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
-#uselib "ckt" , "S2P"
-S2P:SNP27  N__34 N__24 N__25 File="D:\DBTech\21EC33002\inductors\LQG15HS12NH02_series_12nH.s2p" Type="touchstone" Block="ind_270nH" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
-V_Source:SRC4  N__26 0 Type="V_DC" Vdc=0 V SaveCurrent=1 
+Port:TermG5  N__23 0 Num=5 Z=50 Ohm Noise=yes 
+Port:TermG6  N__41 0 Num=6 Z=50 Ohm Noise=yes 
 #uselib "nxp_rf_smallSignal" , "rfss_v2_4_lib_bap64_02_spice_schematic"
-"rfss_v2_4_lib_bap64_02_spice_schematic":D6  N__27 N__35 
+"rfss_v2_4_lib_bap64_02_spice_schematic":D6  N__50 N__35 
+V_Source:SRC4  N__26 0 Type="V_DC" Vdc=0 V SaveCurrent=1 
+#uselib "ckt" , "S2P"
+S2P:SNP30  N__35 N__36 0 File="D:\DBTech\21EC33002\inductors\LQG15HS12NH02_series_12nH.s2p" Type="touchstone" Block="ind_270nH" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "S2P"
+S2P:SNP35  N__45 N__47 0 File="D:\DBTech\21EC33002\inductors\LQG15HS22NH02_series_22nH.s2p" Type="touchstone" Block="ind_270nH" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
 R:R4  N__26 N__28 R=500 Ohm Noise=yes 
+#uselib "ckt" , "S2P"
+S2P:SNP27  N__34 N__24 N__25 File="D:\DBTech\21EC33002\inductors\LQG15HS18NJ02_series_18nH.s2p" Type="touchstone" Block="ind_270nH" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+Port:TermG8  N__58 0 Num=8 Z=50 Ohm Noise=yes 
+Port:TermG7  N__30 0 Num=7 Z=100 Ohm Noise=yes 
+#uselib "ckt" , "S2P"
+S2P:SNP15  N__23 N__34 0 File="D:\DBTech\21EC33002\capacitors\0603\CAP_VIS_0603_001_20milRogers4003C_6p2pF_model.s2p" Type="touchstone" Block="cap_6.8pF" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "S2P"
+S2P:SNP32  N__28 N__35 0 File="D:\DBTech\21EC33002\inductors\LQG15HS12NH02_series_12nH.s2p" Type="touchstone" Block="18nH" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
 #uselib "ckt" , "S2P"
 S2P:SNP29  0 N__28 0 File="D:\DBTech\21EC33002\capacitors\0603\CAP_VIS_0603_001_20milRogers4003C_4p3pF_model.s2p" Type="touchstone" Block="4.3 pF" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
 #uselib "ckt" , "S2P"
-S2P:SNP30  N__35 N__36 N__6 File="D:\DBTech\21EC33002\inductors\LQG15HS12NH02_series_12nH.s2p" Type="touchstone" Block="ind_270nH" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+S2P:SNP28  N__24 N__63 0 File="D:\DBTech\21EC33002\capacitors\0603\CAP_VIS_0603_001_20milRogers4003C_6p8pF_model.s2p" Type="touchstone" Block="cap_6.8pF" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
 #uselib "ckt" , "S2P"
-S2P:SNP31  N__36 N__27 0 File="D:\DBTech\21EC33002\capacitors\0603\CAP_VIS_0603_001_20milRogers4003C_6p8pF_model.s2p" Type="touchstone" Block="cap_6.8pF" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+S2P:SNP34  0 N__45 0 File="D:\DBTech\21EC33002\capacitors\0603\CAP_VIS_0603_001_20milRogers4003C_6p8pF_model.s2p" Type="touchstone" Block="cap_150pF" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
 #uselib "ckt" , "S2P"
-S2P:SNP32  N__28 N__35 0 File="D:\DBTech\21EC33002\inductors\LQG15HS18NJ02_series_18nH.s2p" Type="touchstone" Block="18nH" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+S2P:SNP33  N__30 N__35 0 File="D:\DBTech\21EC33002\capacitors\0603\CAP_VIS_0603_001_20milRogers4003C_6p2pF_model.s2p" Type="touchstone" Block="cap_6.8pF" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
 #uselib "ckt" , "S2P"
-S2P:SNP33  N__30 N__35 0 File="D:\DBTech\21EC33002\capacitors\0603\CAP_VIS_0603_001_20milRogers4003C_6p8pF_model.s2p" Type="touchstone" Block="cap_6.8pF" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
-Port:TermG7  N__30 0 Num=7 Z=50 Ohm Noise=yes 
-Port:TermG8  N__27 0 Num=8 Z=50 Ohm Noise=yes 
+S2P:SNP31  N__36 N__61 0 File="D:\DBTech\21EC33002\capacitors\0603\CAP_VIS_0603_001_20milRogers4003C_6p8pF_model.s2p" Type="touchstone" Block="cap_6.8pF" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+MLIN2:TL15  N__39 N__47 Subst="MSub1" W=ww mm L=l3 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+
+ll=10.5 tune{ 0 to 50 by 0.1 }
+l3=2.7755575615628914e-17 tune{ 0 to 50 by 0.1 }
+l4=0 tune{ 0 to 50 by 0.1 }
+wa=0.25 tune{ 0 to 50 by 0.05 }
+l1=20.5 tune{ 0 to 50 by 0.1 }
+l2=21.5 tune{ 0 to 50 by 0.1 }
+ww=1.3 tune{ 0 to 5 by 0.05 }
+#uselib "ckt" , "S2P"
+S2P:SNP37  N__6 N__46 0 File="D:\DBTech\21EC33002\inductors\LQG15HS22NH02_series_22nH.s2p" Type="touchstone" Block="ind_270nH" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+MLIN2:TL17  N__52 N__46 Subst="MSub1" W=ww mm L=l3 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL14  N__37 N__33 Subst="MSub1" W=wa mm L=l2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL20  N__46 N__55 Subst="MSub1" W=wa mm L=l1 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+MLIN2:TL19  N__38 N__42 Subst="MSub1" W=wa mm L=l2 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+#uselib "nxp_rf_smallSignal" , "rfss_v2_4_lib_bap64_02_spice_schematic"
+"rfss_v2_4_lib_bap64_02_spice_schematic":D7  N__33 N__47 
+Short:DC_Block1  N__29 N__40 Mode=1 
+#uselib "ckt" , "S2P"
+S2P:SNP36  0 N__6 0 File="D:\DBTech\21EC33002\capacitors\0603\CAP_VIS_0603_001_20milRogers4003C_6p8pF_model.s2p" Type="touchstone" Block="cap_150pF" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+MLIN2:TL13  N__47 N__40 Subst="MSub1" W=wa mm L=l1 mm Wall1=2.5000000000000002e+28 mm Wall2=2.5000000000000002e+28 mm Mod=1 
+#uselib "ckt" , "S2P"
+S2P:SNP38  N__33 0 N__48 File="D:\DBTech\21EC33002\inductors\LQG15HS22NH02_series_22nH.s2p" Type="touchstone" Block="ind_270nH" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "nxp_rf_smallSignal" , "rfss_v2_4_lib_bap64_02_spice_schematic"
+"rfss_v2_4_lib_bap64_02_spice_schematic":D8  N__42 N__46 
+Port:Term11  N__29 0 Num=9 Z=50 Ohm Noise=yes 
+V_Source:SRC6  N__53 0 Type="V_DC" Vdc=0 V SaveCurrent=1 
+R:R5  N__49 N__45 R=500 Ohm Noise=yes 
+Short:X3  N__50 N__61 Mode=0 SaveCurrent=no
+Port:TermG10  N__57 0 Num=10 Z=50 Ohm Noise=yes 
+V_Source:SRC5  N__49 0 Type="V_DC" Vdc=4.6 V SaveCurrent=1 
+Short:X2  N__32 N__63 Mode=0 SaveCurrent=no
+#uselib "ckt" , "S2P"
+S2P:SNP39  N__42 0 N__54 File="D:\DBTech\21EC33002\inductors\LQG15HS22NH02_series_22nH.s2p" Type="touchstone" Block="ind_270nH" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+R:R6  N__53 N__6 R=500 Ohm Noise=yes 
+Short:DC_Block2  N__51 N__55 Mode=1 
+Port:Term12  N__51 0 Num=11 Z=50 Ohm Noise=yes 
+Port:TermG11  N__56 0 Num=12 Z=50 Ohm Noise=yes 
+Short:DC_Block3  N__38 N__56 Mode=1 
+Short:DC_Block4  N__37 N__57 Mode=1 
+#uselib "ckt" , "S2P"
+S2P:SNP40  N__63 N__41 N__44 File="D:\DBTech\21EC33002\capacitors\0603\CAP_VIS_0603_001_20milRogers4003C_6p2pF_model.s2p" Type="touchstone" Block="cap_6.8pF" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "S2P"
+S2P:SNP41  N__61 N__58 N__43 File="D:\DBTech\21EC33002\capacitors\0603\CAP_VIS_0603_001_20milRogers4003C_6p2pF_model.s2p" Type="touchstone" Block="cap_6.8pF" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "S2P"
+S2P:SNP42  N__61 0 0 File="D:\DBTech\21EC33002\inductors\LQG15HS47NJ02_series_47nH.s2p" Type="touchstone" Block="18nH" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 
+#uselib "ckt" , "S2P"
+S2P:SNP43  N__63 0 0 File="D:\DBTech\21EC33002\inductors\LQG15HS47NJ02_series_47nH.s2p" Type="touchstone" Block="18nH" InterpMode="linear" InterpDom="" ExtrapMode="constant" Temp=27.0 CheckPassivity=0 

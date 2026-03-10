@@ -1,0 +1,19 @@
+Netlist Translator (*) 630.shp Jul  1 2025
+ADS Netlist translation log
+
+Input format: PSpice
+Input filename: D:/DBTech/21EC33002/infineon/bar50-02v-spice-spar/BAR50-02V/spice/D383.txt
+
+Output format: ADS Netlist file
+Output filename: D:\DBTech\21EC33002\ADS\MTP_II\PIN_SWITCH\D383.net
+
+Special options:
+    Processing first line as comment.
+
+Begin translation at Thu Feb 26 23:49:02 2026
+
+Creating netlist.
+Reading item definition file "C:\Program Files\Keysight\ADS2026/config\spctoiff.cfg"
+Subcircuits found in Spice Netlist:   0
+Subcircuits written to ADS Netlist:   0
+Translation completed at Thu Feb 26 23:49:02 2026.

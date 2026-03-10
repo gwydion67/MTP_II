@@ -1,0 +1,8 @@
+ConnectionMethod = 2
+SpiceDialect = 3
+ElementReplacementTable
+IgnoreFirstLine = true
+SuppressNameMapping = false
+ComponentName = spice1
+NumberOfPins = 0
+DirectoryToStoreNetList = D:\DBTech\21EC33002\ADS\MTP_II\PIN_SWITCH

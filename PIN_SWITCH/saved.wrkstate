@@ -1,7 +1,11 @@
 <!DOCTYPE SaveWorkspaceState>
 <SaveWorkspaceState>
     <Windows>
-        <Layout cell="DiodeOff" geom="1,0,3,935,31,932,906,1868,978" height="915" lib="PIN_SWITCH_lib" view="layout" width="1868" x1="0" y1="-8"/>
+        <Schematic cell="BAR50DiodeSwitch" geom="1,0,2,88,72,904,836,1920,1080" height="1017" lib="PIN_SWITCH_lib" view="schematic" width="1920" x1="0" y1="-8"/>
+        <Schematic cell="series-shunt-switch" geom="1,0,3,21,204,904,836,1920,1080" height="1017" lib="PIN_SWITCH_lib" view="schematic" width="1920" x1="0" y1="-8"/>
+        <Schematic cell="switch_lumped_diode_mode" geom="1,0,2,41,203,904,836,1920,1080" height="1017" lib="PIN_SWITCH_lib" view="schematic" width="1920" x1="0" y1="-8"/>
+        <Layout cell="DiodeOff" geom="1,0,2,961,39,958,1000,1920,1080" height="1017" lib="PIN_SWITCH_lib" view="layout" width="1920" x1="0" y1="-8"/>
+        <DDS name="switch_lumped_diode_mode.dds"/>
     </Windows>
     <MainWindowTab tab="1"/>
 </SaveWorkspaceState>

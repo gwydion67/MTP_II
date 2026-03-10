@@ -1,0 +1,41 @@
+; Translated with ADS Netlist Translator (*) 630.shp Jul  1 2025
+;
+;Mapping SPICE functions file to the Netlist
+#ifndef SPCFUNCTIONS_FILE
+#define SPCFUNCTIONS_FILE
+#include "$HPEESOF_DIR/links/spice/spicefunctions.net"
+#endif
+;
+;**************************************************************
+; INFINEON TECHNOLOGIES
+; RF-PACKAGE EQUIVALENT CIRCUIT
+; VALID UP TO 6 GHZ
+; >>> SC79 <<< (RF-DIODE-PACKAGE)
+; FILENAME: SC79.TXT
+; (C) 2001 INFINEON TECHNOLOGIES
+; Version 1.0 Februar 2001 A.Boehme
+;**************************************************************
+;
+; CAC
+; (10) | | (20)
+; +------------| |------------+
+; | | | |
+; LAO | | LCO
+; A---LLL--+ +--LLL---C
+; (100) | | (200)
+; | LAI |
+; +--LLL---A' CHIP C'--------+
+; (1) (2)
+;
+; LAI
+; CAC
+I_Source:ind _node1 _node10 Idc=0
+; LAO
+C:cap _node10 _node20 C=90f
+; LCO
+I_Source:ind _node10 _node100 Idc=0
+I_Source:ind _node20 _node200 Idc=0
+;**************************************************************
+; Add Spice model or discrete equivalent circuit for chip
+; between terminals (1) and (2)
+;**************************************************************
