@@ -2,4 +2,5 @@
 <dc_annotation_options>
  <options ToggleCurrent="true" ToggleVoltage="true" cell="BAR50DiodeSwitch" library="PIN_SWITCH_lib" view="schematic"/>
  <options ToggleCurrent="true" ToggleVoltage="true" cell="series-shunt-switch" library="PIN_SWITCH_lib" view="schematic"/>
+ <options ToggleCurrent="true" ToggleVoltage="true" cell="switch_lumped_diode_mode" library="PIN_SWITCH_lib" view="schematic"/>
 </dc_annotation_options>

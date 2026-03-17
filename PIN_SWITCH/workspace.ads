@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="35" Version="100">
+<ADSWorkspace Revision="47" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
         <ConfigFile Name="dds.cfg" />
@@ -94,24 +94,52 @@
         <Preferences Name="ads_tlines_lay.prf" />
         <Dataset Name="__simdata077295.ds" />
         <Data_Files Name="__simdata077295.ds" />
-        <Data_Files Name="dc_annotation\%P%I%N_%S%W%I%T%C%H_lib_switch_lumped_diode_mode_schematic\annotation_1.xml" />
-        <Data_Files Name="dc_annotation\%P%I%N_%S%W%I%T%C%H_lib_switch_lumped_diode_mode_schematic\annotation_map.xml" />
         <Log Name="nettrans.log" />
         <WrkAel Name="spice.ael" />
         <Library Name="D383_lib" />
         <Preferences Name="D383_lib_lay.prf" />
+        <Data_Display Name="BAR50DiodeSwitch.dds" />
+        <Dataset Name="BAR50DiodeSwitch.ds" />
+        <Dataset Name="series_shunt_switch.ds" />
+        <Data_Files Name="BAR50DiodeSwitch.ds" />
+        <Data_Files Name="BAR50DiodeSwitch_data\logFile.txt" />
+        <Data_Files Name="dc_annotation\%P%I%N_%S%W%I%T%C%H_lib_%B%A%R50%Diode%Switch_schematic\annotation_1.xml" />
+        <Data_Files Name="dc_annotation\%P%I%N_%S%W%I%T%C%H_lib_%B%A%R50%Diode%Switch_schematic\annotation_map.xml" />
+        <Data_Files Name="dc_annotation\%P%I%N_%S%W%I%T%C%H_lib_series#2dshunt#2dswitch_schematic\annotation_1.xml" />
+        <Data_Files Name="dc_annotation\%P%I%N_%S%W%I%T%C%H_lib_series#2dshunt#2dswitch_schematic\annotation_map.xml" />
+        <Data_Files Name="series_shunt_switch.ds" />
+        <Data_Files Name="series_shunt_switch_data\logFile.txt" />
         <Substrate Name="PIN_SWITCH_lib:substrate1.subst" />
+        <Cell Name="PIN_SWITCH_lib:BAR50DiodeSwitch" />
+        <Cell Name="PIN_SWITCH_lib:BAR_50_02" />
         <Cell Name="PIN_SWITCH_lib:BiasTee" />
         <Cell Name="PIN_SWITCH_lib:DiodeOff" />
         <Cell Name="PIN_SWITCH_lib:DiodeOn" />
         <Cell Name="PIN_SWITCH_lib:Switch_TLIN" />
         <Cell Name="PIN_SWITCH_lib:bias_tee_lumped" />
+        <Cell Name="PIN_SWITCH_lib:series-shunt-switch" />
         <Cell Name="PIN_SWITCH_lib:switchMlin" />
         <Cell Name="PIN_SWITCH_lib:switch_layout" />
         <Cell Name="PIN_SWITCH_lib:switch_lumped_diode_mode" />
         <Cell Name="PIN_SWITCH_lib:switch_mlin_lumped_biastee" />
         <Cell Name="PIN_SWITCH_lib:testingng" />
-        <Cell Name="PIN_SWITCH_lib:BAR50DiodeSwitch" />
-        <Cell Name="PIN_SWITCH_lib:BAR_50_02" />
+        <Dataset Name="switch_lumped_diode_mode_MomUW.ds" />
+        <Data_Files Name="switch_lumped_diode_mode_MomUW.ds" />
+        <Dataset Name="switch_lumped_diode_mode_MomUW_a.ds" />
+        <Data_Files Name="switch_lumped_diode_mode_MomUW_a.ds" />
+        <Cell Name="PIN_SWITCH_lib:final_march10" />
+        <Dataset Name="final_march10_MomUW.ds" />
+        <Data_Files Name="final_march10_MomUW.ds" />
+        <Data_Display Name="final_march10.dds" />
+        <Dataset Name="final_march10_MomUW_a.ds" />
+        <Data_Files Name="final_march10_MomUW_a.ds" />
+        <Cell Name="PIN_SWITCH_lib:parallel_test1" />
+        <Dataset Name="parallel_test1_MomUW.ds" />
+        <Data_Files Name="parallel_test1_MomUW.ds" />
+        <Data_Display Name="parallel_test1.dds" />
+        <Dataset Name="parallel_test1_MomUW_a.ds" />
+        <Data_Files Name="parallel_test1_MomUW_a.ds" />
+        <Data_Files Name="dc_annotation\%P%I%N_%S%W%I%T%C%H_lib_switch_lumped_diode_mode_schematic\annotation_1.xml" />
+        <Data_Files Name="dc_annotation\%P%I%N_%S%W%I%T%C%H_lib_switch_lumped_diode_mode_schematic\annotation_map.xml" />
     </Workspace>
 </ADSWorkspace>

@@ -2,19 +2,22 @@
 hpeesofsim (*) 630.shp Jul  1 2025, MINT version 5
     (64-bit windows built: Tue Jul 01, 2025 18:06:08 -0700)
 
-***** Simulation started at Tue Mar 10 15:03:38 2026
+***** Simulation started at Tue Mar 17 14:30:26 2026
       Running on host: "GCFWS1"
       In Directory: "D:\DBTech\21EC33002\ADS\MTP_II\PIN_SWITCH\data"
-      Process ID: 239952
+      Process ID: 108824
+
+Warning detected by hpeesofsim during circuit set up.
+    In instance `D12.DIODE1', the value of 'Rs' was limited to 1.0000e-04
+
+Warning detected by hpeesofsim during circuit set up.
+    In instance `D6.DIODE1', the value of 'Rs' was limited to 1.0000e-04
 
 Warning detected by hpeesofsim during circuit set up.
     In instance `D8.DIODE1', the value of 'Rs' was limited to 1.0000e-04
 
 Warning detected by hpeesofsim during circuit set up.
     In instance `D7.DIODE1', the value of 'Rs' was limited to 1.0000e-04
-
-Warning detected by hpeesofsim during circuit set up.
-    In instance `D6.DIODE1', the value of 'Rs' was limited to 1.0000e-04
 
 Warning detected by hpeesofsim during circuit set up.
     In instance `D5.DIODE1', the value of 'Rs' was limited to 1.0000e-04
@@ -26,8 +29,8 @@ Warning detected by hpeesofsim during circuit set up.
     In instance `D11.DIODE1', the value of 'Rs' was limited to 1.0000e-04
 
 Warning detected by hpeesofsim in topology check during circuit set up.
-    Number of nodes with only one device attached (topology corrected): 2
-    Number of nodes with no DC path to ground (topology corrected): 2
+    Number of nodes with only one device attached (topology corrected): 20
+    Number of nodes with no DC path to ground (topology corrected): 3
 
 Pt DC convergence is used.
 Warning detected by hpeesofsim during DC analysis `SP1'.
@@ -48,8 +51,17 @@ Warning detected by hpeesofsim during DC analysis `SP1'.
 
 
 SP SP1[1] <PIN_SWITCH_lib:switch_lumped_diode_mode:schematic>   freq=(400 MHz->4.4 GHz)
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    The DC (0 Hz) value has not been specified in the Touchstone file
+    'D:/DBTech/21EC33002/inductors/LQG15HS5N1S02_series_5_1nH.s2p'.
+
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    Data in the Touchstone file `D:/DBTech/21EC33002/inductors/LQG15HS5N1S02_series_5_1nH.s2p'
+    does not cover the requested value of `freq'.
+    Therefore, the required data was obtained by extrapolation.
+
 
 
 Resource usage:
-  Total stopwatch time     =     1.04 seconds.
+  Total stopwatch time     =     1.11 seconds.
 

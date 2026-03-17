@@ -2,25 +2,25 @@
 hpeesofsim (*) 630.shp Jul  1 2025, MINT version 5
     (64-bit windows built: Tue Jul 01, 2025 18:06:08 -0700)
 
-***** Simulation started at Thu Feb 26 12:55:07 2026
+***** Simulation started at Sun Mar 15 16:12:07 2026
       Running on host: "GCFWS1"
       In Directory: "D:\DBTech\21EC33002\ADS\MTP_II\PIN_SWITCH\data"
-      Process ID: 99672
-
-Warning detected by hpeesofsim in topology check during circuit set up.
-    Number of nodes with only one device attached (topology corrected): 2
-
-Error detected by hpeesofsim during circuit set up.
-    Unable to perform optimization.
-        No Optim component was found in the design.
-    To fix this problem:
-        From the schematic, choose the 'Optim/Stat/DOE' palette and place an 'Optim' component.
+      Process ID: 333036
 
 
--------------------------------------------------------------------------------
-Simulation finished with errors.
--------------------------------------------------------------------------------
+SP SP1[1] <PIN_SWITCH_lib:testingng:schematic>   freq=(400 MHz->4.4 GHz)
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    Data in the Touchstone file `D:/DBTech/21EC33002/MA4AGFCP910_SPAR/MA4AGFCP910_10mA_Forward_Bias.s2p'
+    does not cover the requested value of `freq'.
+    Therefore, the required data was obtained by extrapolation.
+
+Warning detected by hpeesofsim during SP analysis `SP1'.
+    Data in the Touchstone file `D:/DBTech/21EC33002/MA4AGFCP910_SPAR/MA4AGFCP910_0V_Reverse_Bias.s2p'
+    does not cover the requested value of `freq'.
+    Therefore, the required data was obtained by extrapolation.
+
+
 
 Resource usage:
-  Total stopwatch time     =     1.05 seconds.
+  Total stopwatch time     =     0.94 seconds.
 

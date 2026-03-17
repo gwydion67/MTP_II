@@ -8,8 +8,10 @@
         <material BAL_NUM="0" BAL_TYPE="INHERIT" materialname="AIR"/>
     </stack>
     <layers>
-        <layer angle="90.0" bottomrough="" expand="0" index="1" layer="1" materialname="PERFECT_CONDUCTOR" negative="0" pinsOnly="0" precedence="0" processRole="1" sheet="1" subtype="0" thick="17" thickunit="micron" toprough=""/>
+        <layer angle="90" bottomrough="" expand="0" index="1" layer="1" materialname="Copper" negative="0" pinsOnly="0" precedence="0" processRole="1" sheet="1" subtype="0" thick="17" thickunit="micron" toprough=""/>
     </layers>
-    <vias/>
+    <vias>
+        <via index1="0" index2="1" layer="5" materialname="Copper" platingdielectricmaterial="AIR" platingenabled="0" platingthickness="" platingthicknessunit="micron" precedence="0" processRole="4" rough="" subtype="0"/>
+    </vias>
     <substrates/>
 </SubstrateModel>

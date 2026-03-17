@@ -1,5 +1,5 @@
 jobName=EmPpMsgs
 jobType=emprep
-designName=PIN_SWITCH_lib:switch_layout:layout
+designName=PIN_SWITCH_lib:final_march10:layout
 ruleFilePath=
 addInfo="EM preprocessor messages displayed as DRC errors"
