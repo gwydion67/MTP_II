@@ -2,10 +2,10 @@
 hpeesofsim (*) 630.shp Jul  1 2025, MINT version 5
     (64-bit windows built: Tue Jul 01, 2025 18:06:08 -0700)
 
-***** Simulation started at Sun Mar 15 16:12:07 2026
+***** Simulation started at Thu Mar 19 18:55:37 2026
       Running on host: "GCFWS1"
       In Directory: "D:\DBTech\21EC33002\ADS\MTP_II\PIN_SWITCH\data"
-      Process ID: 333036
+      Process ID: 120164
 
 
 SP SP1[1] <PIN_SWITCH_lib:testingng:schematic>   freq=(400 MHz->4.4 GHz)
@@ -22,5 +22,5 @@ Warning detected by hpeesofsim during SP analysis `SP1'.
 
 
 Resource usage:
-  Total stopwatch time     =     0.94 seconds.
+  Total stopwatch time     =     1.02 seconds.
 

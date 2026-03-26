@@ -1,4 +1,4 @@
-<ADSWorkspace Revision="47" Version="100">
+<ADSWorkspace Revision="48" Version="100">
     <Workspace Name="">
         <LibraryDefs Name="lib.defs" />
         <ConfigFile Name="dds.cfg" />
@@ -139,7 +139,11 @@
         <Data_Display Name="parallel_test1.dds" />
         <Dataset Name="parallel_test1_MomUW_a.ds" />
         <Data_Files Name="parallel_test1_MomUW_a.ds" />
-        <Data_Files Name="dc_annotation\%P%I%N_%S%W%I%T%C%H_lib_switch_lumped_diode_mode_schematic\annotation_1.xml" />
         <Data_Files Name="dc_annotation\%P%I%N_%S%W%I%T%C%H_lib_switch_lumped_diode_mode_schematic\annotation_map.xml" />
+        <Data_Files Name="dc_annotation\%P%I%N_%S%W%I%T%C%H_lib_switch_lumped_diode_mode_schematic\annotation_1.xml" />
+        <Log Name="writedxf.log" />
+        <Log Name="writegds.log" />
+        <Log Name="oaStrm.log" />
+        <Log Name="writegbr.log" />
     </Workspace>
 </ADSWorkspace>

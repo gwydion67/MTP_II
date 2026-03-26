@@ -1,7 +1,7 @@
 simulationMode 1;
 simulationTemperature 298.15;
 # simDir "D:\DBTech\21EC33002\ADS\MTP_II\PIN_SWITCH\simulation\PIN_SWITCH_lib\final_march10\layout\emSetup_MoM";
-# simTag "M260317115017";
+# simTag "M260319173907";
 logFile "proj.log";
 processPriority Normal;
 mesh_reduction ON;

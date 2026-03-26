@@ -7,7 +7,7 @@
     </Import>
     <Export>
         <FileFormat>DXF</FileFormat>
-        <AutocadVersion>Autocad 2018</AutocadVersion>
+        <AutocadVersion>Autocad 2004</AutocadVersion>
         <PathsAsPolygons>1</PathsAsPolygons>
         <HoleFormat>Holes As Cutlines</HoleFormat>
         <Layers>

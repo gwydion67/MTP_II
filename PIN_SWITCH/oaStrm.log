@@ -1,0 +1,63 @@
+*****************************************************************************
+Tool:		oaStrm              22.61.022
+*****************************************************************************
+Running: oaStrm -templateFile D:\DBTech\21EC33002\ADS\MTP_II\PIN_SWITCH\mfg\gdsTemplate.txt -noInfo "80034 80035 80036" -lib PIN_SWITCH_lib -gds D:\DBTech\21EC33002\ADS\MTP_II\PIN_SWITCH\mfg\PIN_SWITCH_lib_final_march10\gdsii\final_march10.gds -cell "final_march10" -charLimit -hierDepth 300 -layerMap D:\DBTech\21EC33002\ADS\MTP_II\PIN_SWITCH\mfg\LayerMap.map -noOutputTextDisplays -rectAsBoundary -view layout -maxPolygonVertices 8191
+Started: Tue Mar 17 15:52:47 2026 (Hostname: GCFWS1.gcf.local)
+	Library:				PIN_SWITCH_lib
+	Cell:				final_march10
+	View:					layout
+	Tech Library:				YES
+	Cell Case:				Preserve
+	Cell Map:				NO
+	Layer Map:				YES
+	Via Map:				NO
+	Property Map:				NO
+	Property Value Only:			NO
+	Export Reference Libraries:		YES
+	Output Routes:				YES
+	Output Blockages:			YES
+	Output TextDisplays:			NO
+	Output unplaced instances:		YES
+	Convert Paths to Polygons		NO
+	Output 32 Character Names		YES
+	Version			5
+	Hier Depth:				300
+	Aref Min Cuts:				15
+	Ellipse Sides:				64
+	Donut Sides:				64
+	Text Namespace:				native
+	Log File:				oaStrm.log
+
+
+	Label Map:				NO
+	Label Depth:				1
+INFO: (OASTRM-80033): Translating design PIN_SWITCH_lib/final_march10/layout as "final_march10".
+	Scalar Instances:		0
+	Array Instances:		0
+	Polygons:			15
+	Paths:				0
+	Rectangles:			16
+	Lines:				0
+	Arcs:				0
+	Donuts:				0
+	Dots:				0
+	Ellipses:			2
+	Blockages:			0
+	Routes:				0
+	Text:				0
+	Text Displays:				
+		PropDisplay:		0
+		AttrDisplay:		0
+		TextOverride:		0
+	PathSeg:			0
+	StdVia:				0
+	CustomVia:			0
+	Cells:				1
+
+
+Finished:	oaStrm
+Time elapsed:	0.05 seconds
+CPU Time:	1467.41 seconds
+System Time:	1339.27 seconds
+Peak VM:	2349490176 bytes
+Messages:	0 errors, 0 warnings

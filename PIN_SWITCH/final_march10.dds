@@ -10,7 +10,7 @@ ddoId = get_new(ddsId, "Object");
 // DataDisplay Object:
 	set(ddoId, "Path", dds_get_exec_path(what_file(0)));
 	set(ddoId, "Name", dds_get_exec_file(what_file(0)));
-	set(ddoId, "FileModifiedDateAndTime", "2026-03-10T10:15:45Z");
+	set(ddoId, "FileModifiedDateAndTime", "2026-03-19T12:10:26Z");
 	set(ddoId, "FileCreatedDateAndTime", "2026-03-10T10:15:39Z");
 	dssId = get(ddoId, "DatasetServer");
 // Default Dataset
@@ -37,7 +37,7 @@ goId0 = get_new(pageId, "Plot");
 // Graphical Object:
 	set(goId0, "Right", 3600);
 	set(goId0, "Bottom", 4961);
-	set(goId0, "Left", -1196);
+	set(goId0, "Left", -1149);
 	set(goId0, "Top", 1875);
 	set(goId0, "Zrot", 0);
 	set(goId0, "Yrot", 0);
@@ -51,7 +51,7 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "FillColor", 0);
 // Plot base...
 	set(goId0, "LegendOnOff", TRUE);
-	set(goId0, "LeftMargin", 946);
+	set(goId0, "LeftMargin", 899);
 	set(goId0, "RightMargin", 100);
 	set(goId0, "TopMargin", 125);
 	set(goId0, "BottomMargin", 586);
@@ -104,9 +104,9 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", -6.25);
-		 set(axisID, "MaxValue", -6);
-		 set(axisID, "StepSize", 0.05);
+		 set(axisID, "MinValue", -450);
+		 set(axisID, "MaxValue", -50);
+		 set(axisID, "StepSize", 50);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Roboto");
 		 if (get(axisID, "Font") != "Roboto")
@@ -258,7 +258,7 @@ goId0 = get_new(pageId, "Plot");
 // Graphical Object:
 	set(goId0, "Right", 8725);
 	set(goId0, "Bottom", 4961);
-	set(goId0, "Left", 4022);
+	set(goId0, "Left", 3976);
 	set(goId0, "Top", 1875);
 	set(goId0, "Zrot", 0);
 	set(goId0, "Yrot", 0);
@@ -272,7 +272,7 @@ goId0 = get_new(pageId, "Plot");
 	set(goId0, "FillColor", 0);
 // Plot base...
 	set(goId0, "LegendOnOff", TRUE);
-	set(goId0, "LeftMargin", 853);
+	set(goId0, "LeftMargin", 899);
 	set(goId0, "RightMargin", 100);
 	set(goId0, "TopMargin", 125);
 	set(goId0, "BottomMargin", 586);
@@ -325,9 +325,9 @@ axisID = get_new(goId0, "Axis", ddsYaxis, "Y Axis");
 		 set(axisID, "LineType", 0);
 		 set(axisID, "TickFontSize", 167);
 		 set(axisID, "AutoscaleOnOff", TRUE);
-		 set(axisID, "MinValue", 173);
-		 set(axisID, "MaxValue", 180);
-		 set(axisID, "StepSize", 1);
+		 set(axisID, "MinValue", -150);
+		 set(axisID, "MaxValue", 200);
+		 set(axisID, "StepSize", 50);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Roboto");
 		 if (get(axisID, "Font") != "Roboto")
@@ -603,7 +603,7 @@ if (goId0 != NULL) {
 	set(goId0, "Right", 3850);
 	set(goId0, "Bottom", 6655);
 	set(goId0, "Left", 750);
-	set(goId0, "Top", 5739);
+	set(goId0, "Top", 5741);
 	set(goId0, "Zrot", 0);
 	set(goId0, "Yrot", 0);
 	set(goId0, "Xrot", 0);
@@ -618,7 +618,7 @@ if (goId0 != NULL) {
 	set(goId0, "LegendOnOff", TRUE);
 	set(goId0, "LeftMargin", 500);
 	set(goId0, "RightMargin", 100);
-	set(goId0, "TopMargin", 136);
+	set(goId0, "TopMargin", 134);
 	set(goId0, "BottomMargin", 530);
 }
 if (goId0 != NULL) {
@@ -646,8 +646,8 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 		 set(axisID, "TickFontSize", 139);
 		 set(axisID, "AutoscaleOnOff", TRUE);
 		 set(axisID, "MinValue", 0);
-		 set(axisID, "MaxValue", 12);
-		 set(axisID, "StepSize", 2);
+		 set(axisID, "MaxValue", 40);
+		 set(axisID, "StepSize", 10);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Roboto");
 		 if (get(axisID, "Font") != "Roboto")
@@ -774,7 +774,7 @@ traceID = get_new(goId0, "Trace", "plot_vs(0,port_index)", "X Axis", "Y Axis", F
 		}
 		set(traceID, "TraceLabelOffset", 100);
 	}
-markerID = get_new(traceID, "MarkerNew", "ix", "1", 0, "", "", 1, "");
+markerID = get_new(traceID, "MarkerNew", "ix", "3", 0, "", "", 1, "");
 // Base Class Object:
 	set(markerID, "Name", "");
 	set(markerID, "Uid", 1245739628);
@@ -831,8 +831,8 @@ markerID = get_new(traceID, "MarkerNew", "ix", "1", 0, "", "", 1, "");
 		set(markerID, "MkrReadoutFillColor", 0);
 		set(markerID, "MkrReadoutFillPattern", -1);
 		set(markerID, "MkrReadoutLeft", 4000);
-		set(markerID, "MkrReadoutRight", 4883);
-		set(markerID, "MkrReadoutBottom", 6257);
+		set(markerID, "MkrReadoutRight", 4879);
+		set(markerID, "MkrReadoutBottom", 6253);
 		set(markerID, "MkrReadoutTop", 5875);
 		set(markerID, "MkrIndicatorColor", 0);
 		set(markerID, "MkrIndicatorSize", 8);
@@ -858,7 +858,7 @@ if (goId0 != NULL) {
 	set(goId0, "Right", 7100);
 	set(goId0, "Bottom", 6655);
 	set(goId0, "Left", 4000);
-	set(goId0, "Top", 5739);
+	set(goId0, "Top", 5741);
 	set(goId0, "Zrot", 0);
 	set(goId0, "Yrot", 0);
 	set(goId0, "Xrot", 0);
@@ -873,7 +873,7 @@ if (goId0 != NULL) {
 	set(goId0, "LegendOnOff", TRUE);
 	set(goId0, "LeftMargin", 500);
 	set(goId0, "RightMargin", 100);
-	set(goId0, "TopMargin", 136);
+	set(goId0, "TopMargin", 134);
 	set(goId0, "BottomMargin", 530);
 }
 if (goId0 != NULL) {
@@ -901,8 +901,8 @@ axisID = get_new(goId0, "Axis", ddsXaxis, "X Axis");
 		 set(axisID, "TickFontSize", 139);
 		 set(axisID, "AutoscaleOnOff", TRUE);
 		 set(axisID, "MinValue", 0);
-		 set(axisID, "MaxValue", 12);
-		 set(axisID, "StepSize", 2);
+		 set(axisID, "MaxValue", 40);
+		 set(axisID, "StepSize", 10);
 		 set(axisID, "Logarithmic", FALSE);
 		 set(axisID, "Font", "Roboto");
 		 if (get(axisID, "Font") != "Roboto")
@@ -1086,8 +1086,8 @@ markerID = get_new(traceID, "MarkerNew", "jx", "1", 0, "", "", 1, "");
 		set(markerID, "MkrReadoutFillColor", 0);
 		set(markerID, "MkrReadoutFillPattern", -1);
 		set(markerID, "MkrReadoutLeft", 8500);
-		set(markerID, "MkrReadoutRight", 9103);
-		set(markerID, "MkrReadoutBottom", 6145);
+		set(markerID, "MkrReadoutRight", 9099);
+		set(markerID, "MkrReadoutBottom", 6141);
 		set(markerID, "MkrReadoutTop", 5875);
 		set(markerID, "MkrIndicatorColor", 0);
 		set(markerID, "MkrIndicatorSize", 8);
@@ -1413,12 +1413,6 @@ goId0 = get_new(pageId, "Text");
 	set(goId0, "FillPattern", -1);
 	set(goId0, "FillColor", 0);
 	set(goId0, "OutlineOnOff", FALSE);
-// Embedded Expressions:
-	set(goId0, "ComplexNumberFormat", ddsComplexFormatMagPhase);
-	set(goId0, "Format", ddsFormatAutomatic);
-	set(goId0, "NumDigits", 3);
-	set(goId0, "NumDataPoints", 3);
-	set(goId0, "TextDataSeparator", ", ");
 // Base Class Object:
 	set(goId0, "Name", "");
 	set(goId0, "Uid", 588456562);
